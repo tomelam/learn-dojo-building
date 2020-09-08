@@ -16,7 +16,7 @@ https://github.com/dojo/cli-create-app , which, under its "Usage" section says:
 dojo create [app] --name <appName>
 ```
 
-Each of the five scripts in the current difrectory checks its prerequisite
+Each of the five scripts in the current directory checks its prerequisite
 setup and, if the setup has been done, executes a command from the
 "Dojo Building Guide" or notifies the user about the setup:
 
