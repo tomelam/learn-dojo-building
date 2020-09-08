@@ -1,9 +1,16 @@
 #!/usr/bin/env bash 
 echo "Checking tools for building a Dojo widget ..."
 
+echo "Checking availability of Node ..."
 if [[ -z "$(node --version)" ]] ; then
-  echo "Install Node first."
+  echo "Install Node first. It might be best if you get it directly from"
+  echo "https://nodejs.org/en/ ."
   exit 1
+else
+  echo "On Windows & Mac, manually check that you are using the LTS version:"
+  echo "node -v"
+  echo "Get it at https://nodejs.org (https://nodejs.org/en/download/)."
+  echo "Better use NVM (https://github.com/nvm-sh/nvm) to install and use it."
 fi
 
 if ! npm list -g @dojo/cli > /dev/null ; then
