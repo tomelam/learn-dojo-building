@@ -14,3 +14,5 @@ https://github.com/dojo/cli-create-app , which, under its "Usage" section says:
 ```npm install -g @dojo/cli-create-app
 dojo create [app] --name <appName>
 ```
+The current project was initialized using the command
+`dojo create app --name learn-dojo-building`
