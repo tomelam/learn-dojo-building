@@ -10,6 +10,7 @@ else
   echo "On Windows & Mac, manually check that you are using the LTS version:"
   echo "node -v"
   echo "Get it at https://nodejs.org (https://nodejs.org/en/download/)."
+  echo "As of September 8, 2020, the LTS version is v12.18.3 ."
   echo "Better use NVM (https://github.com/nvm-sh/nvm) to install and use it."
 fi
 
