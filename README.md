@@ -14,10 +14,22 @@ https://github.com/dojo/cli-create-app , which, under its "Usage" section says:
 ```npm install -g @dojo/cli-create-app
 dojo create [app] --name <appName>
 ```
-`check-tools.sh` in the current project checks whether Node,
+
+Each of the five scripts in the current difrectory checks its prerequisite
+setup and, the setup has been done, executes a command from the
+"Dojo Building Guide" or notifies the user about the setup:
+
+1. `check-tools.sh` in the current project checks whether Node,
 `@dojo/cli-create-app`, and typescript have been installed so that they can be
 used in the project.
 
-The current project was initialized using the command
-`dojo create app --name learn-dojo-building`
-This runs without error after the tools have been set up.
+2. `build.sh` initializes the current project using the command
+`dojo create app --name learn-dojo-building`.
+
+3. `build-dist.sh` creates an application bundle and outputs the results
+to the `output/dist` directory.
+
+4. `serve-and-watch.sh` starts a web server on port 9999 and makes Dojo's
+build tool rebuild the application whenever when its source files  change.
+
+5. `test.sh` runs the application's unit and functional tests.
