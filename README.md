@@ -16,11 +16,11 @@ dojo create [app] --name <appName>
 ```
 
 Each of the five scripts in the current difrectory checks its prerequisite
-setup and, the setup has been done, executes a command from the
+setup and, if the setup has been done, executes a command from the
 "Dojo Building Guide" or notifies the user about the setup:
 
 1. `check-tools.sh` in the current project checks whether Node,
-`@dojo/cli-create-app`, and typescript have been installed so that they can be
+`@dojo/cli-create-app`, and `typescript` have been installed so that they can be
 used in the project.
 
 2. `build.sh` initializes the current project using the command
@@ -30,6 +30,7 @@ used in the project.
 to the `output/dist` directory.
 
 4. `serve-and-watch.sh` starts a web server on port 9999 and makes Dojo's
-build tool rebuild the application whenever when its source files  change.
+build tool rebuild the application whenever when the application's
+source files change.
 
 5. `test.sh` runs the application's unit and functional tests.
