@@ -9,7 +9,7 @@ The section "Basic usage" in the "Dojo Building Guide" says
 `@dojo/cli/cli-build-app` and `@dojo/cli-test-intern` must be "available in the
 project" and says that if the  "application was initialized using
 `@dojo/cli-create-app` then these dependencies should already be present,"
-but doesn't say give immediate details about how to initialize an application.
+but doesn't give immediate details about how to initialize an application.
 The "Basic usage" guide gives a link to `@dojo/cli-create-app`:
 https://github.com/dojo/cli-create-app , which, under its "Usage" section says:
 ```npm install -g @dojo/cli-create-app
