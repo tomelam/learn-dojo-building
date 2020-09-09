@@ -10,7 +10,9 @@ The section "Basic usage" in the "Dojo Building Guide" says
 project" and says that if the  "application was initialized using
 `@dojo/cli-create-app` then these dependencies should already be present,"
 but doesn't give immediate details about how to initialize an application.
-The "Basic usage" guide gives a link to `@dojo/cli-create-app`:
+The section "Basic usage"
+(https://dojo.io/learn/building/introduction#basic-usage)
+in the "Dojo Building Guide" gives a link to `@dojo/cli-create-app`:
 https://github.com/dojo/cli-create-app , which, under its "Usage" section says:
 ```npm install -g @dojo/cli-create-app
 dojo create [app] --name <appName>
