@@ -18,7 +18,7 @@ https://github.com/dojo/cli-create-app , which, under its "Usage" section says:
 dojo create [app] --name <appName>
 ```
 
-## A set of scripts developed to document a quickstart to building a Dojo app
+## A set of scripts to document a quickstart to building a Dojo app
 
 Each of the following five scripts in the current directory checks prerequisite
 setup and, if the setup has been done, executes a command from the
