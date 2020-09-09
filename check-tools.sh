@@ -1,5 +1,6 @@
 #!/usr/bin/env bash 
-echo "Checking tools for building a Dojo app or widget ..."
+
+echo "Checking tools for building an example Dojo app ..."
 
 echo "Checking availability of Node ..."
 if [[ -z "$(node --version)" ]] ; then

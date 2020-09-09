@@ -2,6 +2,6 @@
 
 # See https://dojo.io/learn/building/introduction
 
-echo "Building something ..."
+echo "Building an example Dojo app ..."
 
 dojo create app --name learn-dojo-building

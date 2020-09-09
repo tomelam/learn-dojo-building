@@ -2,7 +2,7 @@
 
 # See https://dojo.io/learn/building/introduction
 
-echo "Building something ..."
+echo "Building an example Dojo app in distribution mode ..."
 
 if [[ ! -d learn-dojo-building ]] ; then
   echo "Run ./build.sh first."
