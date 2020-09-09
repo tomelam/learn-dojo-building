@@ -18,9 +18,10 @@ https://github.com/dojo/cli-create-app , which, under its "Usage" section says:
 dojo create [app] --name <appName>
 ```
 
-Each of the five scripts in the current directory checks its prerequisite
+Each of the following five scripts in the current directory checks prerequisite
 setup and, if the setup has been done, executes a command from the
-"Dojo Building Guide" or notifies the user about the setup:
+"Dojo Building Guide" or notifies the user about the setup.
+They are meant to be executed in the order given here.
 
 1. `check-tools.sh` in the current project checks whether Node,
 `@dojo/cli-create-app`, and `typescript` have been installed so that they can be
