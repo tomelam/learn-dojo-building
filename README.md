@@ -38,5 +38,7 @@ to the `output/dist` directory.
 4. `serve-and-watch.sh` starts a web server on port 9999 and makes Dojo's
 build tool rebuild the application whenever when the application's
 source files change.
+The example app demonstrates how a simple home page with a navigation bar
+can be created using Dojo widgets. 
 
 5. `test.sh` runs the application's unit and functional tests.
